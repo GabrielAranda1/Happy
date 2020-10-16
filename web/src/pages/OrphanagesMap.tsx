@@ -42,14 +42,14 @@ function OrphanagesMap() {
         <Marker icon={mapIcon} position={[-23.5272282, -46.1932352]}>
           <Popup closeButton={false} minWidth={240} maxWidth={240} className='map-popup'>
             Casa de Mogi
-            <Link to=''>
+            <Link to='/orphanages/1'>
               <FiArrowRight size={20} color='#FFF' />
             </Link>
           </Popup>
         </Marker>
       </Map>
 
-      <Link to='' className='create-orphanage'>
+      <Link to='/orphanages/create' className='create-orphanage'>
         <FiPlus size='32' color='#FFF' />
       </Link>
     </div>
