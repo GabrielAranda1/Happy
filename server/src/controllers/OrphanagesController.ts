@@ -75,7 +75,7 @@ export default {
         Yup.object().shape({
           path: Yup.string().required(),
         })
-      ),
+      ).min(1),
     })
 
     await schema.validate(data, {
