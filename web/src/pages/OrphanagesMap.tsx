@@ -17,6 +17,11 @@ interface Orphanage {
 }
 
 function OrphanagesMap() {
+  // Set title
+  useEffect(() => {
+    document.title = 'Mapa de Orfanatos'
+  }, [])
+
   const [orphanages, setOrphanages] = useState<Orphanage[]>([])
 
   useEffect(() => {
