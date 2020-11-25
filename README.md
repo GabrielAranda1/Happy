@@ -13,10 +13,9 @@ It was built following [Rocketseat's](https://rocketseat.com.br/) hands on cours
 
 This project was developed using the following technologies:
 
-- [Node.js][node]
-- [React][react]
-- [React Native][rn]
-- [TypeScript][typescript]
+- [Node.js](https://nodejs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React.js](https://reactjs.org/)
 
 ## Usage
 
