@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="happy" style="width: 60px" title="Next Level Week" src="./web/public/favicon.svg" width="250px" />
+    <img alt="happy" style="width: 60px; height: 60px;" title="Next Level Week" src="./web/public/favicon.svg" width="250px" />
     <p>Happy</p>
 </h1>
 
